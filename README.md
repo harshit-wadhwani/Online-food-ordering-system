@@ -5,14 +5,6 @@ A web-based application for restaurant owners to manage their menu and receive o
 
 It has mainly 2 division one is streamlit application and another is userdata.py file which handles all the function related to the sql query.
 
-## Library Installation
-
-Install dependencies by using the following code 
-
-```
-pip install -r requirements.txt
-```
-[python version 3.8 Recommended]
 
     
 ## Run Locally
@@ -39,6 +31,12 @@ db = mysql.connector.connect(
 )
 
 ```
+Install dependencies by using the following code 
+
+```
+pip install -r requirements.txt
+```
+[python version 3.8 Recommended]
 
 Start the server
 
